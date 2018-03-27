@@ -10,3 +10,18 @@
  * Rationale: to remove browser defaults.
  */
 @import "~normalize.css/normalize.css";
+
+body {
+    /*
+     * Description: global font family declaration
+     * Rationale: to set the global font family.
+     */
+    font-family: "Avenir", "Helvetica", "Arial", sans-serif;
+
+    /*
+     * Description: font smoothing declarations
+     * Rationale: to smooth the text rendered.
+     */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
