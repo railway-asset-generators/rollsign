@@ -56,6 +56,12 @@ module.exports = {
                 'unspecified': 'bottomAlphabetical'
             }
         ],
+        'at-rule-no-unknown': [
+            true,
+            {
+                'ignoreAtRules': ['util']
+            }
+        ],
         'indentation': 4,
         'no-empty-source': null,
         'font-family-name-quotes': 'always-unless-keyword',
