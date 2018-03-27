@@ -10,6 +10,8 @@
 </template>
 
 <style lang="scss">
+    @import "global";
+
     #app {
         font-family: "Avenir", "Helvetica", "Arial", sans-serif;
         color: #2c3e50;
