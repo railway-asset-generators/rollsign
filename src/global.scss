@@ -6,18 +6,19 @@
  */
 
 /*
- * Description: normalize.css
- * Rationale: to remove browser defaults.
+ * Description: project global variables.
+ * Rationale: store Bootstrap variable overrides and custom variables.
  */
-@import "~normalize.css/normalize.css";
+@import "variables";
+
+/*
+ * Description: Bootstrap
+ * Rationale: serve as global UI library. Also replaces normalize.css with its Reboot module.
+ */
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/dist/bootstrap-vue.css";
 
 body {
-    /*
-     * Description: global font family declaration
-     * Rationale: to set the global font family.
-     */
-    font-family: "Avenir", "Helvetica", "Arial", sans-serif;
-
     /*
      * Description: font smoothing declarations
      * Rationale: to smooth the text rendered.
